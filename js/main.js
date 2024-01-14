@@ -10,8 +10,9 @@
         }, 1);
     };
     spinner();
-    
-    
+    $(document).ready(function() {
+        $('.venobox').venobox();
+      });
     // Initiate the wowjs
     new WOW().init();
 
